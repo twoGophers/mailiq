@@ -3,7 +3,7 @@ import { useEffect, useRef } from "react";
 type ModalProps = {
   items: any[];
   onClose: () => void;
-  buttonRef: React.RefObject<HTMLDivElement>;
+  buttonRef: any;
 };
 
 export default function Modal({ items, onClose, buttonRef }: ModalProps) {
