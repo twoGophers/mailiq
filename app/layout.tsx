@@ -4,7 +4,7 @@ import '../style/imports.css';
 import localFont from "next/font/local";
 
 const bernier = localFont({
-  src: "../public/font/BERNIERDISTRESSED-REGULAR.woff2",
+  src: "../public/font/BERNIERDistressed-Regular.woff2",
   variable: "--font-bernier",
   weight: "400",
   display: "swap",
