@@ -1,0 +1,72 @@
+body {
+  font-family: var(--font-ptsans), sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-bernier), sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.contain {
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .contain {
+    padding: 0px 20px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .contain {
+    padding: 0px 40px;
+  }
+}
+
+.margin-top {
+  margin-top: 100px;
+}
+
+/* Extra small	None	<576px
+Small	sm	≥576px
+Medium	md	≥768px
+Large	lg	≥992px
+Extra large	xl	≥1200px
+Extra extra large	xxl	≥1400px */
+header {
+  background-image: url('/image/bg\ head.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header-list {
+  background-image: url('/image/d.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.useful {
+  background-image: url('/image/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.tarif {
+  background-image: url('/image/bg tarif.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
